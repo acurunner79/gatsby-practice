@@ -3,6 +3,8 @@ title: Learn Gatsby Fast
 subtitle: learn Gatsby now, it's fast!
 date: 2021-07-01
 slug: learn-gatsby-quick
+author: Jorge Soto
+rating: 2
 ---
 
 

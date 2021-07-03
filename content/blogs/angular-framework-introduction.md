@@ -1,13 +1,13 @@
 ---
-title: Learn Programming in JavaScript
-subtitle: learn programming, it's super fun!
+title: Angular Framework Introduction
+subtitle: A quick introduction into the amazing framework, Angular!
 date: 2021-07-02
-slug: learn-program-js
+slug: angular-framework-introduction
 author: Jorge Soto
-rating: 1
+rating: 5
 ---
 
-## Emphasis
+## A quick introduction into the amazing framework, Angular!
 
 **This is bold text**
 
@@ -18,20 +18,6 @@ __This is bold text__
 _This is italic text_
 
 ~~Strikethrough~~
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
 
 
 ## Blockquotes

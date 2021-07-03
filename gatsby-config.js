@@ -13,6 +13,21 @@ module.exports = {
         path: `${__dirname}/content/`,
       },
     },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-prismjs",
+            options: {
+              aliases: {
+                es6: "js"
+              }
+            }
+          }
+        ]
+      }
+    },
     "gatsby-transformer-remark"
   ],
 };

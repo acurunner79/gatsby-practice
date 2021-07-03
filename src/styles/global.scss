@@ -1,3 +1,5 @@
-html{
-    background-color: rgb(74, 185, 195);
+@import "~bulma/bulma.sass";
+
+a[disabled] {
+    pointer-events: none;
 }

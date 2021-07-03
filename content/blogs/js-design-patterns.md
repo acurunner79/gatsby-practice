@@ -1,13 +1,13 @@
 ---
-title: Learn Programming in JavaScript
-subtitle: learn programming, it's super fun!
+title: JavaScript Design Pattern
+subtitle: Learn something new, design patterns are still a thing!
 date: 2021-07-02
-slug: learn-program-js
+slug: js-design-patterns
 author: Jorge Soto
-rating: 1
+rating: 4
 ---
 
-## Emphasis
+## Learn something new, design patterns are still a thing!
 
 **This is bold text**
 
@@ -18,20 +18,6 @@ __This is bold text__
 _This is italic text_
 
 ~~Strikethrough~~
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
 
 
 ## Blockquotes
