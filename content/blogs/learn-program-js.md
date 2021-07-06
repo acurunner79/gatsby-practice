@@ -1,13 +1,14 @@
 ---
 title: Learn Programming in JavaScript
-subtitle: learn programming, it's super fun!
+subtitle: Learn programming, it's super fun!
 date: 2021-07-02
 slug: learn-program-js
 author: Jorge Soto
 rating: 1
+coverImage: https://www.computersciencedegreehub.com/wp-content/uploads/2021/03/Brief-History-of-Programming-Languages.jpg
 ---
 
-## Emphasis
+## Learn programming, it's super fun!
 
 **This is bold text**
 

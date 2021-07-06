@@ -2,14 +2,20 @@ import React from 'react'
 import Layout from '../components/Layout'
 import FeaturedBlog from '../components/FeaturedBlog'
 import BlogListing from '../components/BlogListing'
-import { graphql } from 'gatsby'
+import SearchContainer from '../components/SearchContainer'
+import Seo from '../components/Seo'
+import { Link, graphql } from 'gatsby'
 
 
-const IndexPage = ({data}) => {
+const IndexPage = ({data, pageContext}) => {
 
     const { nodes } = data.allMarkdownRemark
     return (
         <Layout>
+            <Seo 
+               title="Home"
+               description="Code space is aiming to be the best platform to learn programming"
+            />
             <div className="columns">
                 { nodes.slice(0, 2).map(node => 
                     <div key={node.id} className="column">
@@ -19,7 +25,12 @@ const IndexPage = ({data}) => {
                 }
             </div>
             <div className="p-4">
-                <BlogListing blogs={nodes}/>
+                <BlogListing blogs={nodes}
+                search={() => 
+                <SearchContainer 
+                  searchIndex={pageContext.searchIndex} />}
+                />
+                <Link className="button is-primary is-small is-outlined" to="/blogs">Read more blogs...</Link>
             </div>
         </Layout>
     )

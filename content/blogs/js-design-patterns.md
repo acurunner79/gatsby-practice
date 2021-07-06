@@ -5,6 +5,7 @@ date: 2021-07-02
 slug: js-design-patterns
 author: Jorge Soto
 rating: 4
+coverImage: https://www.tutorialrepublic.com/lib/images/javascript-illustration.png
 ---
 
 ## Learn something new, design patterns are still a thing!

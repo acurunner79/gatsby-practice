@@ -1,6 +1,22 @@
 //  
 // const { createFilePath } = require("gatsby-source-filesystem")
 
+const searchIndex = require("./data/searchIndex.json")
+
+exports.onCreatePage= ({page, actions}) => {
+    const { createPage, deletePage } = actions
+    if (page.path === "/") {
+        deletePage(page)
+        createPage({
+            ...page,
+            context: {
+                ...page.context,
+                searchIndex
+            }
+        })
+    }
+}
+
 exports.createPages = async ({graphql, actions: {createPage}}) => {
     // const res = await axios.get("https://jsonplaceholder.typicode.com/posts")
     // const posts = res.data

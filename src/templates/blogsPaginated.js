@@ -1,6 +1,7 @@
 import React from 'react' 
 import Layout from '../components/Layout'
 import BlogListing from '../components/BlogListing'
+import Seo from '../components/Seo'
 import { graphql, Link } from 'gatsby'
 
 
@@ -15,6 +16,10 @@ const BlogsPaginated = ({pageContext, data}) => {
     const nextPage = (currentPage + 1).toString()
     return (
         <Layout>
+            <Seo 
+               title="Blogs" 
+               description="Fresh Code Space blogs about technology" 
+            />
             <BlogListing blogs={nodes}/>
             {/* { !isFirst &&
                 <Link

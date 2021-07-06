@@ -1,11 +1,25 @@
+const rss = require("./utils/rss-options")
+
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+
 module.exports = {
   siteMetadata: {
-    title: "Jorge Blog",
+    title: "Place to learn coding",
+    description: "The best place to learn coding online",
+    siteUrl: process.env.BASE_URL,
     body: {
       content: "Some SEO content"}
   },
   plugins: [
     "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-plugin-feed",
+      options: rss.options
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,6 +42,7 @@ module.exports = {
         ]
       }
     },
+    "gatsby-plugin-react-helmet",
     "gatsby-transformer-remark"
   ],
 };

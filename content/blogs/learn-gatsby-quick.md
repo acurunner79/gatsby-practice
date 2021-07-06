@@ -5,6 +5,7 @@ date: 2021-07-01
 slug: learn-gatsby-quick
 author: Jorge Soto
 rating: 2
+coverImage: https://res.cloudinary.com/buildingblocks/image/upload/v1598659218/5f3812d4177bd45bc4448bdc/content-types/5f3812eb177bd45bc4448bde/5f499a56c9e4a93ead5627d9/hc19cgvonddu4pq7yxm8.png
 ---
 
 

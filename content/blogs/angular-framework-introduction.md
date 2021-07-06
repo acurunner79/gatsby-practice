@@ -5,6 +5,7 @@ date: 2021-07-02
 slug: angular-framework-introduction
 author: Jorge Soto
 rating: 5
+coverImage: https://swansoftwaresolutions.com/wp-content/uploads/2019/04/The-Fundamentals-of-AngularJS-Framework-in-Programming-1024x576.jpg
 ---
 
 ## A quick introduction into the amazing framework, Angular!
